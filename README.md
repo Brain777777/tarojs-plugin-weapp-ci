@@ -5,10 +5,17 @@
 ## 使用
 
 ### 安装
-```
-npm i tarojs/plugin-weapp-ci -D
 
-yarn add -D tarojs/plugin-weapp-ci
+在现有项目中使用可以通过 `npm` 进行安装
+```
+npm i tarojs-plugin-weapp-ci -D
+```
+
+当然，你也可以通过 `yarn` 或 `pnpm` 进行安装
+```
+yarn add -D tarojs-plugin-weapp-ci
+
+pnpm add  tarojs-plugin-weapp-ci -D
 ```
 
 ### 使用插件
