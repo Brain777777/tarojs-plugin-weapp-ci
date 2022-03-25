@@ -1,4 +1,4 @@
-# tarojs/plugin-weapp-ci
+# tarojs-plugin-weapp-ci
 
 > Taro 微信小程序端构建后支持CI（持续集成）的插件， 支持构建完毕后自动打开小程序开发工具、上传作为体验版、生成预览二维码，此插件为 fork @tarojs/plugin-mini-ci 的微信小程序版本，感谢 [Taro](https://github.com/NervJS/taro) 团队多年来的不断维护。
 
@@ -24,7 +24,7 @@ pnpm add tarojs-plugin-weapp-ci -D
 ```js
 // 示例, 如果你使用 `vs code` 作为开发工具， 你还可以使用注释的语法引入插件包含的声明文件，可获得类似于typescript的友好提示
 /**
- * @typedef { import("tarojs/plugin-weapp-ci").CIOptions } CIOptions
+ * @typedef { import("tarojs-plugin-weapp-ci").CIOptions } CIOptions
  * @type {CIOptions}
  */
 const CIPluginOpt = {
@@ -39,7 +39,7 @@ const CIPluginOpt = {
 }
 const config = {
   plugins: [
-    [ "tarojs/plugin-weapp-ci", CIPluginOpt ]
+    [ "tarojs-plugin-weapp-ci", CIPluginOpt ]
   ]
 }
 ```
