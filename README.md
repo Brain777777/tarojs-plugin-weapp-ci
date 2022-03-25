@@ -15,7 +15,7 @@ npm i tarojs-plugin-weapp-ci -D
 ```
 yarn add -D tarojs-plugin-weapp-ci
 
-pnpm add  tarojs-plugin-weapp-ci -D
+pnpm add tarojs-plugin-weapp-ci -D
 ```
 
 ### 使用插件
