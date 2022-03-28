@@ -1,6 +1,6 @@
 {
   "name": "tarojs-plugin-weapp-ci",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Taro 微信小程序端构建后CI（持续集成）插件",
   "keywords": [
     "Taro",
