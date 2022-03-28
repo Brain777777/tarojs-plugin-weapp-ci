@@ -29,7 +29,7 @@ export default (ctx: IPluginContext, pluginOpts: CIOptions) => {
         version: joi.string(),
         desc: joi.string(),
         robot: joi.number(),
-        qrcodeFormat: joi.string().valid("image",""),
+        qrcodeFormat: joi.string().valid("image", "base64", "terminal"),
         qrcodeOutputDest: joi.string(),
         pagePath: joi.string(),
         searchQuery: joi.string(),

@@ -25,7 +25,7 @@ export interface CIOptions {
     desc: string;
     /** 指定使用哪一个 ci 机器人，可选值：1 ~ 30 */
     robot?: number;
-    /** 返回二维码文件的格式 "image" 或 "base64"， 默认值 "terminal" 供调试用 */
+    /** 二维码文件的格式 "image" 或 "base64"， 默认值 "terminal" 供调试用 */
     qrcodeFormat?: QrcodeType;
     /** 二维码文件保存路径 */
     qrcodeOutputDest?: string;
